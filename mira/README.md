@@ -27,7 +27,7 @@ password
 
 ```sudo frvan```
 
-```apt-get install mira-assembler```
+```apt-get install mira-assembler``` or something else
 
 ```su user3```
 
