@@ -34,7 +34,7 @@ password
 ###Mira assembly
 
 - create two folders (data and assemblies)
-- assemblies folder: manifest.conf (see examples of content in file)
+- assemblies folder: [manifest.conf] (https://github.com/el-mat/molplat/blob/master/mira/manifest.conf)
 - assemblies folder:
 
 ```mira manifest.conf >& log_assembly.txt```
