@@ -1,8 +1,8 @@
 
-Tuturials [https://github.com/PacificBiosciences/Bioinformatics-Training/wiki]
+[Tuturials] (https://github.com/PacificBiosciences/Bioinformatics-Training/wiki)
 
 ## Instructions to do the SMRT Analysis in a virtualbox can be found:
-link [https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/SMRT-Analysis-Virtual-Machine-Install]
+[link] (https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/SMRT-Analysis-Virtual-Machine-Install)
 
 You will need to install Virtualbox and vagrant (not the one build-in ubuntu)
 
@@ -34,6 +34,6 @@ user: administrator
 
 password: PacBio#1 
 
-video tuturial [http://www.pacificbiosciences.com/Tutorials/Bacterial_Assembly_Epigenetic_Analysis_HGAP/story.html]
+[video tuturial] (http://www.pacificbiosciences.com/Tutorials/Bacterial_Assembly_Epigenetic_Analysis_HGAP/story.html)
 
 
