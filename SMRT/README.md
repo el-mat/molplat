@@ -1,8 +1,8 @@
 
-[https://github.com/PacificBiosciences/Bioinformatics-Training/wiki]
+Tuturials [https://github.com/PacificBiosciences/Bioinformatics-Training/wiki]
 
 ## Instructions to do the SMRT Analysis in a virtualbox can be found:
-[https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/SMRT-Analysis-Virtual-Machine-Install]
+link [https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/SMRT-Analysis-Virtual-Machine-Install]
 
 You will need to install Virtualbox and vagrant (not the one build-in ubuntu)
 
