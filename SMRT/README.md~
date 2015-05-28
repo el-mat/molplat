@@ -1,0 +1,25 @@
+
+[https://github.com/PacificBiosciences/Bioinformatics-Training/wiki]
+
+[https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/SMRT-Analysis-Virtual-Machine-Install]
+
+Vagrantfile
+
+# to launch SMRT virtual box (this might take a long time to launch!)
+cd /data/tools/SMRT
+#vagrant up 
+vagrant provision 
+vagrant box list
+vagrant ssh # vagrant@vagrant-ubuntu-trusty-64:~$ 
+
+# Paste " http://localhost:8080 " in an internet browser
+
+administrator
+PacBio#1 
+
+Design job
+Create new
+De Novo assembly
+Select Protocols -> HGAP
+... -> Assembly (adapt genome size)
+
