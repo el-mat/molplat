@@ -9,10 +9,14 @@ You will need to install Virtualbox and vagrant (not the one build-in ubuntu one
 Create a new folder called SMRT
 
 In that folder:
-     ```
-wget https://gist.githubusercontent.com/mjhsieh/701716a527a7966d26ad/raw/92bed57ca054323d0be525eaedbd0749082b8404/Vagrantfile
-     ```
-Edit the Vagrantfile to share the data folder with the host machine: add `"config.vm.synced_folder "/data/PacBio_data", "/vagrant/vagrant_data"` in the do |config| part of the file. It will create a folder called vagrant_data in the VM containing the data from /data/PacBio_data. If you want to update your VM without having to do `vagrant up`, you can do `vagrant reload`. 
+
+```wget https://gist.githubusercontent.com/mjhsieh/701716a527a7966d26ad/raw/92bed57ca054323d0be525eaedbd0749082b8404/Vagrantfile```
+
+Edit the Vagrantfile to share the data folder with the host machine: 
+
+add `"config.vm.synced_folder "/data/PacBio_data", "/vagrant/vagrant_data"` in the do |config| part of the file. It will create a folder called vagrant_data in the VM containing the data from /data/PacBio_data. 
+
+If you want to update your VM without having to do `vagrant up`, you can do `vagrant reload`. 
 
 ###To launch SMRT virtualbox (this might take a long time to launch!)
 
