@@ -53,3 +53,6 @@ Set these parameters by clicking the box with three dots "..." next to the proto
             p_celeraassembler.genomeSize = 40000  
 
 If the lambda job also fails, then there is a problem with the software configuration that must be investigated. 
+
+For more troubleshooting: 
+[RS HGAP Assembly protocol fails in SMRT Portal] (https://github.com/PacificBiosciences/SMRT-Analysis/wiki/RS-HGAP-Assembly-protocol-fails-in-SMRT-Portal)
