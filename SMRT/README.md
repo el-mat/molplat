@@ -41,4 +41,15 @@ password: PacBio#1
 
 [video tuturial] (http://www.pacificbiosciences.com/Tutorials/Bacterial_Assembly_Epigenetic_Analysis_HGAP/story.html)
 
+###Run HGAP on lambda to establish a baseline.
 
+Run RS_HGAP_Assembly using the SMRT Cell in $SEYMOUR_HOME/common/test/primary/lambda, and the pre-packaged lambda reference in $SEYMOUR_HOME/common/userdata/references/lambda. 
+
+Make sure you set the Estimated Genome size to 40,000 bp and Minimum Seed Read Length to 3500 bp. 
+
+Set these parameters by clicking the box with three dots "..." next to the protocol drop-down menu:
+
+            p_preassembler.minLongReadLength = 3500
+            p_celeraassembler.genomeSize = 40000  
+
+If the lambda job also fails, then there is a problem with the software configuration that must be investigated. 
