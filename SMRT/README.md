@@ -29,7 +29,7 @@ If you want to update your VM without having to do `vagrant up`, you can do `vag
 `vagrant up` if it is the first time 
 `vagrant reload` if you made changes to the Vagrantfile
 
-N.B: if `vagrant up` gives you the following error: *Vagrant cannot forward the specified ports on this VM*. This is due to a conflict with the build-in Galaxy server in Bio-Linux. In this case, you will have to replace port 8080 by another one (e.g. 5432) in the Vagrantfile.
+N.B: if `vagrant up` gives you the following error: *Vagrant cannot forward the specified ports on this VM*. This is due to a conflict with the build-in Galaxy server in Bio-Linux. In this case, you will have to replace port 8080 by another one (e.g. 5432) in the Vagrantfile (5 replacements in the Vagrantfile).
 
 `vagrant box list`
 
