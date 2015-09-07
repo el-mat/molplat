@@ -19,7 +19,7 @@ add `"config.vm.synced_folder "/data/PacBio_data", "/vagrant/vagrant_data"` in t
 Adapt cores and memory in Vagrantfile:
 --cpus 12 and --memory 32000
 
-If you want to update your VM without having to do `vagrant up`, you can do `vagrant reload`. 
+If you want to update your VM without having to do `vagrant up`, you can do `vagrant provision`. 
 
 
 ###To launch SMRT virtualbox (this might take a long time to launch!)
