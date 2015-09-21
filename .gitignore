@@ -1,0 +1,13 @@
+*~
+*bwa*
+.Rhistory
+.vagrant
+*bam*
+packer_cache
+*sai*
+*fast*
+*fasta*
+*fastq*
+*.sam*
+*samtools*
+*.tar
