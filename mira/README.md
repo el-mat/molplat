@@ -17,19 +17,7 @@ To evaluate the quality of the sequences in the .fastq files:
 
 Installation:
 
-```sudo frvan```
-
-password
-
-```sudo su```
-
-password
-
-```sudo frvan```
-
 ```apt-get install mira-assembler``` or something else
-
-```su user3```
 
 ###Mira assembly
 
