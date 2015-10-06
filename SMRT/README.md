@@ -72,3 +72,8 @@ Contig sequences can be found in the following file:
 To export from the VM to the host:
 
 `cat /home/vagrant/userdata/jobs/016/016439/reference/sequence/reference.fasta > /vagrant/vagrant_data/B07_reference.fasta`
+
+or 
+
+`mv ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to remove the data from the VM
+`cp ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to keep a copy in the VM
