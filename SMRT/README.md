@@ -75,5 +75,5 @@ To export from the VM to the host:
 
 or 
 
-`mv ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to remove the data from the VM
+`sudo mv ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to remove the data from the VM
 `cp ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to keep a copy in the VM
