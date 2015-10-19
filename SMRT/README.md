@@ -39,7 +39,7 @@ N.B: if `vagrant up` gives you the following error: *Vagrant cannot forward the 
 
 ###To launch SMRT portal 
 
-In the internet browser: `http://localhost:8080`
+In the internet browser: `http://localhost:8080` or http://localhost:5432
 
 user: administrator
 
@@ -75,5 +75,8 @@ To export from the VM to the host:
 
 or 
 
-`sudo mv ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to remove the data from the VM
-`cp ~/userdata/jobs/016/016439 /vagrant/vagrant_data/` if you want to keep a copy in the VM
+`sudo mv ~/userdata/jobs/016 /vagrant/vagrant_data/` if you want to remove the data from the VM
+`cp ~/userdata/jobs/016 /vagrant/vagrant_data/` if you want to keep a copy in the VM
+
+`sudo mv /vagrant/vagrant_data/016 ~/userdata/jobs/` if you want to put the data back into the VM
+`tar -cvf 016.tar 016` in /data/PacBio_data folder to compress result folder
