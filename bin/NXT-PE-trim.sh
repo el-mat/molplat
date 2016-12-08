@@ -1,7 +1,9 @@
 #!/bin/bash
 
 display_usage() { 
-	echo "This script performs quality trimming of nextera paired-end data using trim_galore with the following parameters: Quality=30, Length=80, clip_R1=20 clip_R2=20. It takes 3 arguments: fastq files R1/R2 and path of output folder. Please use absolute paths" 
+	echo "This script performs quality trimming of nextera paired-end data using trim_galore with the following 
+	parameters: Quality=30, Length=80, clip_R1=20 clip_R2=20. It takes 3 arguments: fastq files R1/R2 and path 
+	of output folder. Please use absolute paths" 
 	echo -e "\nUsage:\n$0 [arguments] \n" 
 	} 
 R1=$1
