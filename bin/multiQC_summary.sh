@@ -1,7 +1,8 @@
 #!/bin/bash
 
 display_usage() { 
-	echo "This script creates a html file summarizing fastqc data from multiple zipped fastq files (as recieved by the sequencing facility). It takes 1 argument a path to the fastq files" 
+	echo "This script creates a html file summarizing fastqc data from multiple zipped fastq files (as recieved 
+	by the sequencing facility). It takes 1 argument a path to the fastq files" 
 	echo -e "\nUsage:\n$0 [arguments] \n" 
 	} 
 
