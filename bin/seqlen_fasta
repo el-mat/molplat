@@ -1,0 +1,17 @@
+#!/bin/bash
+
+display_usage() { 
+	echo "This script takes a fasta file as input." 
+	echo -e "\nUsage:\n$0 [fasta file] \n" 
+	}
+
+# if less than one arguments supplied, display usage 
+	if [  $# -le 0 ] 
+	then 
+		display_usage
+		exit 1
+	fi 
+
+echo "Fasta file: $1"
+
+awk '/^>/ {if (seqlen) {print seqlen}; print; seqlen=0; next;} {seqlen=seqlen+length($0)}END{print seqlen}' $1
